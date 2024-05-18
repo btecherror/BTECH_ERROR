@@ -1,0 +1,908 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ruslan+Display&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Keania+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Keania+One&family=Rubik+Mono+One&display=swap');
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding: 5rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    background-color: #021024;
+    height: 160vh;
+    width: 100%;
+    position: relative;
+}
+
+/* NAV SECTION STARTS HERE */
+
+.hero nav {
+    background: #C1E8FF;
+    height: 64px;
+    padding-top: 15px;
+}
+
+.hero nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero nav ul a {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s ease-in;
+}
+
+.hero nav ul a:hover {
+    border-bottom: 2px solid #021024;
+}
+
+.hero nav ul li {
+    list-style: none;
+    display: inline-flex;
+    font-size: 19px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+i.fa.fa-ellipsis-h {
+    position: absolute;
+    left: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.hero .fa {
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+.hero .nav-btn a {
+    text-decoration: none;
+    color: black;
+    padding: 0px 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.hero .nav-btn {
+    background: transpar;
+    padding: 9px;
+    position: absolute;
+    right: 15px;
+    border-radius: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.hero .nav-btn:hover {
+    background-color: white;
+}
+
+/* NAV SECTION STARTS HERE */
+
+
+/* HERO SECTION STARTS HERE */
+
+.hero .hero-img img {
+    width: 830px;
+    position: absolute;
+    right: 20px;
+    margin-top: 32px;
+}
+
+.hero .hero-text {
+    position: absolute;
+    left: 10%;
+    margin-top: 9%;
+}
+
+.hero .hero-text h1 {
+    font-size: 110px;
+    position: absolute;
+    color: white;
+    font-family: "Ruslan Display";
+}
+
+.hero .hero-text h2 {
+    position: relative;
+    margin-top: 57vh;
+    font-size: 64px;
+    color: white;
+    font-family: "Russo one";
+}
+
+.hero .hero-comment {
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    bottom: 27%;
+    max-width: 86%;
+    font-family: "Russo one";
+    margin-left: 10%;
+}
+
+.hero .hero-btn {
+    position: absolute;
+    bottom: 15%;
+    display: inline-flex;
+    font-family: "Rubik Mono One";
+
+}
+
+.hero .hero-btn a {
+    text-decoration: none;
+    color: #021024;
+}
+
+.hero .hero-btn1 {
+    position: relative;
+    left: 6em;
+    background-color: #C1E8FF;
+    padding: 25px;
+    border-radius: 20px;
+    font-size: 20px;
+    transition: 0.5s all;
+}
+
+.hero .hero-btn1:hover {
+    transform: scale(1.1);
+}
+
+
+.hero .hero-btn2 {
+    position: relative;
+    left: 9em;
+    background-color: #C1E8FF;
+    padding: 25px;
+    border-radius: 20px;
+    font-size: 20px;
+    transition: 0.5s all;
+}
+
+.hero .hero-btn2:hover {
+    transform: scale(1.1);
+}
+
+/* HERO SECTION ENDS HERE */
+
+/* side bar starts here */
+.hero .hero-side-menu {
+    height: 135vh;
+    width: 260px;
+    background: #5483B3;
+    position: absolute;
+    z-index: 2;
+    left: -260px;
+    transition: 0.5s all;
+}
+
+.hero .hero-side-menu ul li {
+    list-style: none;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.hero .hero-side-menu ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 15px 35px;
+    background: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.hero .hero-side-menu-Discover a {
+    font-size: 18px;
+}
+
+.hero .hero-side-menu-Resources a {
+    font-size: 15px;
+}
+
+.hero .hero-side-menu .fas {
+    font-size: 15px;
+    position: absolute;
+    left: 29px;
+    padding-top: 10px;
+    transition: 0.3s all;
+}
+
+.hero-side-menu .fa.fa-times {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 20px;
+}
+
+.hero-side-menu .fa.fa-times:hover {
+    color: white;
+}
+
+/* side bar ends here */
+
+/* footer section begins here */
+footer {
+    height: 264px;
+    width: 100%;
+    background-color: #5483B3;
+    position: absolute;
+    bottom: -80%;
+}
+
+.title {
+    height: 60px;
+    font-size: 40px;
+    position: absolute;
+    left: 2%;
+    top: 3%;
+}
+
+.tags ul li {
+    font-size: x-large;
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 10px;
+    transition: 0.5s all;
+}
+
+.tags ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    margin-left: 12px;
+    font-weight: bold;
+
+}
+
+.tags ul li:hover {
+    transform: scale(1.2);
+}
+
+.tags ul {
+    position: absolute;
+    left: 3%;
+    top: 30%;
+    padding: 10px;
+}
+
+.tags .fa {
+    font-size: 18px;
+    left: 17px;
+    top: 50px;
+}
+
+.footer-img img {
+    position: absolute;
+    right: 2%;
+    bottom: 5px;
+}
+
+.tags input {
+    position: absolute;
+    top: 16%;
+    left: 36.5%;
+    padding: 9px;
+    outline: none;
+}
+
+.tags .button {
+    border-radius: 5px;
+    position: absolute;
+    top: 15%;
+    left: 700px;
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+}
+
+/* FOOTER ENDS HERE */
+
+
+/* STUDY MATERIAL SECTION STARTS HERE */
+
+.study-material {
+    position: relative;
+}
+
+.studymaterial-img img {
+    position: absolute;
+    width: 50%;
+    right: 10px;
+    padding: 20px;
+}
+
+.study-material .textbox1 {
+    width: 50%;
+    height: 65vh;
+    margin-top: 20px;
+    margin-left: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.study-material .textbox1 h1 {
+    font-family: "Ruslan Display";
+    font-size: 125px;
+    color: white;
+}
+
+.study-material .textbox2 {
+    width: 95%;
+    height: 55vh;
+    margin: 0px 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.study-material .textbox2 img {
+    width: 120px;
+    padding-right: 25px;
+}
+
+.study-material .textbox2 .box {
+    width: 399px;
+    height: 120px;
+    margin: 20px 19px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s all;
+}
+
+.study-material .textbox2 .box:hover {
+    transform: scale(1.1);
+}
+
+.study-material .textbox2 a {
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    font-family: "Keania One";
+}
+
+.study-material .textbox2 .box1 {
+    background: #C1E8FF;
+}
+
+.study-material .textbox2 .box2 {
+    background: #1158C5;
+}
+
+
+/* STUDY MATERIAL SECTION ENDS HERE */
+
+
+/* IT branch section starts here */
+
+.IT-Branch {
+    height: 610vh;
+}
+
+.IT-Branch .heading-text h1 {
+    font-family: "Ruslan Display";
+    color: white;
+    font-size: 90px;
+    margin: 20px 20px;
+}
+
+.IT-Branch .sem-box {
+    width: 97%;
+    height: 40vh;
+    margin: 0px 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.IT-Branch .sem-box .box {
+    background-color: white;
+    width: 399px;
+    height: 85px;
+    margin: 20px 19px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.IT-Branch .sem-box .box a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+.IT-Branch .sembox {
+    height: 70vh;
+    width: 97%;
+    margin: 100px 20px;
+
+}
+
+.IT-Branch .sembox .subheading-text h1 {
+    font-size: 35px;
+    margin: 5px 15px;
+    font-family: "Rubik Mono One";
+    color: white;
+}
+
+.IT-Branch .sembox .subject-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.IT-Branch .sembox .box {
+    background-color: white;
+    width: 400px;
+    height: 60px;
+    margin: 20px 19px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.IT-Branch .sembox .notes {
+    background-color: #C1E8FF;
+}
+
+.IT-Branch .sembox .notes a {
+    color: white;
+    font-family: "Paytone One";
+}
+
+.IT-Branch .sembox .box a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+.IT-Branch footer {
+    bottom: 0;
+}
+
+/* IT branch section ends here */
+
+/* EC branch section starts here */
+
+.EC-Branch {
+    height: 610vh;
+}
+
+.EC-Branch .heading-text h1 {
+    font-family: "Ruslan Display";
+    color: white;
+    font-size: 90px;
+    margin: 20px 20px;
+}
+
+.EC-Branch .sem-box {
+    width: 97%;
+    height: 40vh;
+    margin: 0px 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.EC-Branch .sem-box .box {
+    background-color: white;
+    width: 399px;
+    height: 85px;
+    margin: 20px 19px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.EC-Branch .sem-box .box a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+.EC-Branch .sembox {
+    height: 70vh;
+    width: 97%;
+    margin: 100px 20px;
+
+}
+
+.EC-Branch .sembox .subheading-text h1 {
+    font-size: 35px;
+    margin: 5px 15px;
+    font-family: "Rubik Mono One";
+    color: white;
+}
+
+.EC-Branch .sembox .subject-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.EC-Branch .sembox .box {
+    background-color: white;
+    width: 400px;
+    height: 60px;
+    margin: 20px 19px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.EC-Branch .sembox .notes {
+    background-color: #C1E8FF;
+}
+
+.EC-Branch .sembox .notes a {
+    color: white;
+    font-family: "Paytone One";
+}
+
+.EC-Branch .sembox .box a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+.EC-Branch footer {
+    bottom: 0;
+}
+
+/* EC branch section ends here */
+
+/* MECHANICAL branch section starts here */
+
+.MECH-Branch {
+    height: 610vh;
+}
+
+.MECH-Branch .heading-text h1 {
+    font-family: "Ruslan Display";
+    color: white;
+    font-size: 90px;
+    margin: 20px 20px;
+}
+
+.MECH-Branch .sem-box {
+    width: 97%;
+    height: 40vh;
+    margin: 0px 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.MECH-Branch .sem-box .box {
+    background-color: white;
+    width: 399px;
+    height: 85px;
+    margin: 20px 19px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.MECH-Branch .sem-box .box a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+.MECH-Branch .sembox {
+    height: 70vh;
+    width: 97%;
+    margin: 100px 20px;
+
+}
+
+.MECH-Branch .sembox .subheading-text h1 {
+    font-size: 35px;
+    margin: 5px 15px;
+    font-family: "Rubik Mono One";
+    color: white;
+}
+
+.MECH-Branch .sembox .subject-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.MECH-Branch .sembox .box {
+    background-color: white;
+    width: 400px;
+    height: 60px;
+    margin: 20px 19px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.MECH-Branch .sembox .notes {
+    background-color: #C1E8FF;
+}
+
+.MECH-Branch .sembox .notes a {
+    color: white;
+    font-family: "Paytone One";
+}
+
+.MECH-Branch .sembox .box a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+.MECH-Branch footer {
+    bottom: 0;
+}
+
+/* MECHANICAL branch section ends here */
+
+
+/* AERO branch section starts here */
+
+.AERO-Branch {
+    height: 610vh;
+}
+
+.AERO-Branch .heading-text h1 {
+    font-family: "Ruslan Display";
+    color: white;
+    font-size: 90px;
+    margin: 20px 20px;
+}
+
+.AERO-Branch .sem-box {
+    width: 97%;
+    height: 40vh;
+    margin: 0px 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.AERO-Branch .sem-box .box {
+    background-color: white;
+    width: 399px;
+    height: 85px;
+    margin: 20px 19px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.AERO-Branch .sem-box .box a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+.AERO-Branch .sembox {
+    height: 70vh;
+    width: 97%;
+    margin: 100px 20px;
+
+}
+
+.AERO-Branch .sembox .subheading-text h1 {
+    font-size: 35px;
+    margin: 5px 15px;
+    font-family: "Rubik Mono One";
+    color: white;
+}
+
+.AERO-Branch .sembox .subject-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.AERO-Branch .sembox .box {
+    background-color: white;
+    width: 400px;
+    height: 60px;
+    margin: 20px 19px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.AERO-Branch .sembox .notes {
+    background-color: #C1E8FF;
+}
+
+.AERO-Branch .sembox .notes a {
+    color: white;
+    font-family: "Paytone One";
+}
+
+.AERO-Branch .sembox .box a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+.AERO-Branch footer {
+    bottom: 0;
+}
+
+/* MECHANICAL branch section ends here */
+
+
+/* PHYSICS CYCLE SECTION BEGINS HERE */
+
+.PHYSICS-CYCLE footer {
+    bottom: 0;
+}
+
+.PHYSICS-CYCLE {
+    height: 200vh;
+    position: relative;
+}
+
+.PHYSICS-CYCLE-img img {
+    position: absolute;
+    width: 50%;
+    right: 10px;
+    padding: 20px;
+}
+
+.PHYSICS-CYCLE .textbox1 {
+    width: 50%;
+    height: 65vh;
+    margin-top: 20px;
+    margin-left: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.PHYSICS-CYCLE .textbox1 h1 {
+    font-family: "Ruslan Display";
+    font-size: 125px;
+    color: white;
+}
+
+.PHYSICS-CYCLE .textbox2 {
+    width: 95%;
+    height: 75vh;
+    margin: 0px 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.PHYSICS-CYCLE .textbox2 img {
+    width: 120px;
+    padding-right: 25px;
+}
+
+.PHYSICS-CYCLE .textbox2 .box {
+    width: 399px;
+    height: 120px;
+    margin: 20px 19px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s all;
+}
+
+.PHYSICS-CYCLE .textbox2 .box:hover {
+    transform: scale(1.1);
+}
+
+.PHYSICS-CYCLE .textbox2 a {
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    font-family: "Keania One";
+}
+
+.PHYSICS-CYCLE .textbox2 .box1 {
+    background: #C1E8FF;
+}
+
+.PHYSICS-CYCLE .textbox2 .box2 {
+    background: #1158C5;
+}
+
+/* PHYSICS CYCLE SECTION ENDS HERE */
+
+/* CHEMISTRY CYCLE SECTION BEGINS HERE */
+
+.CHEMISTRY-CYCLE footer {
+    bottom: 0;
+}
+
+.CHEMISTRY-CYCLE {
+    height: 200vh;
+    position: relative;
+}
+
+.CHEMISTRY-CYCLE-img img {
+    position: absolute;
+    width: 45%;
+    right: 10px;
+    padding: 20px;
+}
+
+.CHEMISTRY-CYCLE .textbox1 {
+    width: 50%;
+    height: 65vh;
+    margin-top: 20px;
+    margin-left: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CHEMISTRY-CYCLE .textbox1 h1 {
+    font-family: "Ruslan Display";
+    font-size: 115px;
+    color: white;
+}
+
+.CHEMISTRY-CYCLE .textbox2 {
+    width: 95%;
+    height: 75vh;
+    margin: 0px 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.CHEMISTRY-CYCLE .textbox2 img {
+    width: 120px;
+    padding-right: 25px;
+}
+
+.CHEMISTRY-CYCLE .textbox2 .box {
+    width: 399px;
+    height: 120px;
+    margin: 20px 19px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s all;
+}
+
+.CHEMISTRY-CYCLE .textbox2 .box:hover {
+    transform: scale(1.1);
+}
+
+.CHEMISTRY-CYCLE .textbox2 a {
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    font-family: "Keania One";
+}
+
+.CHEMISTRY-CYCLE .textbox2 .box1 {
+    background: #C1E8FF;
+}
+
+.CHEMISTRY-CYCLE .textbox2 .box2 {
+    background: #1158C5;
+}
+
+/* CHEMISTRY CYCLE SECTION ENDS HERE */
