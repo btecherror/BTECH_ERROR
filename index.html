@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BtechError</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="icon" type="image/x-icon" href="images/logo.svg">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap');
+    </style>
+
+</head>
+
+<body>
+
+    <!-- HERO SECTION STARTS HERE -->
+    <section class="hero">
+
+        <!-- NAV STARTS HERE -->
+        <nav class="Desktop-nav">
+            <ul>
+                <i class="fa fa-ellipsis-h" onclick="openmenu()"></i>
+                <div class="logo">
+                    <a href="index.html"><img src="images\Component 21.svg" alt=""></a>
+                </div>
+
+                <div class="nav-bar">
+                    <li><a href="study-material.html">Study material</a></li>
+                    <li><a href="#">CGPA calculator</a></li>
+                    <li>Time table<i class="fa fa-caret-down"></i></li>
+                    <li>Syallabus<i class="fa fa-caret-down"></i></li>
+                </div>
+
+                <div class="nav-btn">
+                    <a href="#">Share</a>
+
+                </div>
+            </ul>
+        </nav>
+
+        <!-- NAV ENDS HERE -->
+
+                <!-- Mobile-Nav section start here -->
+                <nav class="Mobile-nav">
+                    <a href="index.html"><img src="images\Component 21.svg" alt=""></a>
+                    <i class="fa fa-bars" onclick="Mobile_openmenu()"></i>
+                </nav>
+                <!--Mobile-Nav section ends here -->
+        
+        
+
+        <!-- SIDE MENU BAR FOR DESKTOP STARTS HERE -->
+        <div class="hero-side-menu" id="sidemenu">
+            <i class="fa fa-times" onclick="closemenu()"></i>
+            <div class="hero-side-menu-Discover">
+                <ul>
+                    <li>Discover</li>
+                    <li><i class="fas fa-home"></i><a href="index.html">Home</a></li>
+                    <li><i class="fas fa-search"></i><a href="commingsoon.html">Browse</a></li>
+                    <li><i class="fas fa-users"></i><a href="commingsoon.html">Collaborate</a></li>
+                </ul>
+            </div>
+            <div class="hero-side-menu-Resources">
+                <ul>
+                    <li>Resources</li>
+                    <li><i class="fas fa-bars"></i><a href="study-material.html">STUDY MATERIAL</a></li>
+                    <li><i class="fas fa-calculator"></i><a href="commingsoon.html">CGPA CALCULATOR</a></li>
+                    <li><i class="fas fa-calculator"></i><a href="commingsoon.html">SGPA CALCULATOR</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- SIDE MENU BAR FOR DESKTOP ENDS HERE -->
+
+
+        <!-- SIDE MENU BAR FOR MOBILE STARTS HERE -->
+         <div class="Mobile-sidemenu" id="Mobilesidemenu">
+            <i class="fas fa-times" onclick="Mobile_closemenu()"></i>
+            <div class="content">
+                <ul>
+                    <li><i class="fas fa-home "></i><a class="pad" href="index.html">Home</a></li>
+                    <li><i class="fas fa-bars"></i><a href="study-material.html">Study Material</a></li>
+                    <li><i class="fas fa-calculator"></i><a href="commingsoon.html">CGPA Calculator</a></li>
+                    <li><i class="fas fa-calculator"></i><a href="commingsoon.html">SGPA Calculator</a></li>
+                    <li><i class="fas fa-users"></i><a href="commingsoon.html">Collaborate</a></li>
+                    <li><i class="fas fa-users"></i><a class="pad" href="About.html">About</a></li>
+                    <li><i class="fas fa-users"></i><a class="pad" href="commingsoon.html">Team</a></li>
+                </ul>
+            </div>
+         </div>
+         <!-- SIDE MENU BAR FOR MOBILE ENDS HERE -->
+
+        
+
+
+
+
+
+        <div class="hero-img anim">
+            <img src="images/undraw_learning_re_32qv 1.png" alt="">
+        </div>
+
+        <div class="hero-text anim">
+
+            <h1>MAKE <br><span style="color: #0047FF" ;>EXAMS </span> <br>EASY <br></h1>
+            <h2> Study With <span style="color: #0047FF" ;>BtechError</span></h2>
+        </div>
+        <div class="hero-comment anim">
+            <p>Hii,Guys we are <span style="color: #0047FF" ;>BtechError team</span>
+                , a team of passionate students just like you. Our platform is designed with the sole purpose of
+                assisting students like yourselves. Here, you can access a comprehensive range of VTU-based study
+                materials, including question papers, model question papers with solutions, notes organized by module,
+                and insightful conceptual videos. Our goal is to simplify complex concepts and provide valuable
+                resources to aid you during exam preparation. Thank you for choosing BtechError to support your
+                academic journey
+            </p>
+        </div>
+
+        <div class="hero-btn anim">
+            <div class="hero-btn1"><a href="study-material.html">VTU  BASED<br>STYDY MATERIAL</a></div>
+            <div class="hero-btn2"><a href="#">VTU  BASED<br>CONCEPTUAL VIDEO</a></div>
+        </div>
+    <!-- FOOTER MOBILE-SECTION STARTS HERE -->
+        <div class="footer">
+            <div class="feedback-area">
+                <input type="text" placeholder="Feedback & Requests">
+                <button>Send</button>
+            </div>
+            <div class="about-section">
+                <ul>
+                <li><i class="fa fa-chevron-circle-right"></i><a href="About.html">About us</a></li>
+                <li><i class="fa fa-chevron-circle-right"></i><a href="#">Contact us</a></li>
+                <li><i class="fa fa-chevron-circle-right"></i><a href="#">Team</a></li>
+            </ul>
+            </div>
+        </div>
+    <!-- FOOTER MOBILE-SECTION ENDS HERE -->
+    </section>
+
+    <!-- HERO SECTION ENDS HERE -->
+
+    <!-- FOOTER Desktop-SECTION  STARTS HERE -->
+    <footer>
+        <div class="title">
+            <b>
+                <p>BtechError</p>
+            </b>
+        </div>
+        <div class="tags">
+            <ul>
+                <li><i class="fa fa-chevron-circle-right"></i><a href="About.html">About us</a></li>
+                <li><i class="fa fa-chevron-circle-right"></i><a href="#">Contact us</a></li>
+                <li><i class="fa fa-chevron-circle-right"></i><a href="#">Team</a></li>
+            </ul>
+            <input type=" text" placeholder="You FeedBack or Requests ">
+            <button class="button">submit</button>
+
+        </div>
+        <div class="footer-img">
+            <img src="images/undraw_graduation_re_gthn 1.svg">
+        </div>
+    </footer>
+
+    <!-- FOOTER Desktop-SECTION ENDS HERE -->
+
+
+
+
+
+    <!-- java script code start here -->
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.left = "0"
+        }
+
+        function closemenu() {
+            sidemenu.style.left = "-260px"
+        }
+
+
+        var Mobilesidemenu = document.getElementById("Mobilesidemenu");
+        function Mobile_openmenu(){
+            Mobilesidemenu.style.right = "0"
+        }
+        function Mobile_closemenu(){
+            Mobilesidemenu.style.right = "-70%"
+        }
+     
+    </script>
+    <!-- java script code ends here -->
+
+</body>
+
+</html>
